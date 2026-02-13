@@ -13,8 +13,8 @@ flutter:
     platforms:
       android:
         default_package: google_maps_flutter_android
-      ios:
-        default_package: google_maps_flutter_ios
+      # ios:
+      #   default_package: google_maps_flutter_ios
       web:
         default_package: google_maps_flutter_web
 
@@ -22,7 +22,7 @@ dependencies:
   flutter:
     sdk: flutter
   google_maps_flutter_android: ^2.16.1
-  google_maps_flutter_ios: ^2.15.4
+  # google_maps_flutter_ios: ^2.15.4
   google_maps_flutter_platform_interface: ^2.14.0
   google_maps_flutter_web: ^0.5.14
 
