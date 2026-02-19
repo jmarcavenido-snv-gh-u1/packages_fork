@@ -5,16 +5,16 @@ issue_tracker: https://github.com/flutter/flutter/issues?q=is%3Aissue+is%3Aopen+
 version: 2.14.1
 
 environment:
-  sdk: ^3.8.0
-  flutter: ">=3.32.0"
+  sdk: ^3.9.0
+  flutter: ">=3.35.0"
 
 flutter:
   plugin:
     platforms:
       android:
         default_package: google_maps_flutter_android
-      # ios:
-      #   default_package: google_maps_flutter_ios
+      ios:
+        default_package: google_maps_flutter_ios_sdk9
       web:
         default_package: google_maps_flutter_web
 
@@ -23,6 +23,7 @@ dependencies:
     sdk: flutter
   google_maps_flutter_android: ^2.16.1
   # google_maps_flutter_ios: ^2.15.4
+  google_maps_flutter_ios_sdk9: ^2.17.3
   google_maps_flutter_platform_interface: ^2.14.0
   google_maps_flutter_web: ^0.5.14
 
